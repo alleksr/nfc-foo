@@ -5,7 +5,7 @@ bin_PROGRAMS = \
 		nfc-mftry2 \
 		nfc-mfclassic-ex
 
-nfc_cpupwd_SOURCES = nfc-cpupwd.c crapto1.c crypo1.c nfc-utils.c
+nfc_cpupwd_SOURCES = nfc-cpupwd.c crapto1.c crypto1.c nfc-utils.c
 nfc_cpupwd_LDADD =  @libnfc_LIBS@
 
 nfc_mftry2_SOURCES = nfc-mftry2.c mifare.c nfc-utils.c
